@@ -20,7 +20,7 @@ CucumberHTML.DOMFormatter = function(rootNode) {
   // Draw initial summary
   (function()
   {
-    $('.cucumber-report').append( '<div id="cucumber-header"><div id="label"><h1>Neo Cucumber Acceptance Testing</h1></div><div id="summary"><p id="totals"></p><p id="duration"></div>' );
+    $('.cucumber-report').append( '<div id="cucumber-header"><div id="label"><h1>Cucumber Acceptance Testing</h1></div><div id="summary"><p id="totals"></p><p id="duration"></div>' );
   })();
 
   function updateTotals() {
